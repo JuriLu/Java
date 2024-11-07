@@ -1,9 +1,13 @@
 public class Animal {
     private String type;
-    private int size;
+    private String size;
     private int weight;
 
-    public Animal(String type, int size, int weight) {
+    public Animal() {
+
+    }
+
+    public Animal(String type, String size, int weight) {
         this.type = type;
         this.size = size;
         this.weight = weight;
